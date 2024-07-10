@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+    margin: 130px 0;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(170, 107, 228)
+}
+
+#element {
+    color: rgb(170, 107, 228)
+}
+
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+
+}
+
+.secondsection h1{
+    font-size: 1.5rem;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.secondsection .box{
+    background: white;
+    width: 78vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+
+}
+
+.secondsection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 130px;
+
+}
+
+.vertical-title{
+    position: relative;
+    top: 60px;
+    width: 150px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 12px;
+}
+
+.image-top{
+    display: flex;
+    width: 50px;
+    position: relative;
+    top: 5px;
+    left: 5px; 
+}
+
+footer{
+    background-color: purple;
+    height: 233px;
+}
+
+.footer{
+    text-align: center;
+    padding: 23px 122px;
+}
+
+p{
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 20px;
+           
+    
+}
+
+li {
+    font-size: 24px;
+    color: #007bff;
+    /* Optional: change the icon color */
+}
+
+.img{
+    width: 23px;
+}
+
+
+section.socail-media {
+    display: flex;
+    justify-content: center;
+    
+}
